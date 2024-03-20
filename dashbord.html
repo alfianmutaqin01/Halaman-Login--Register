@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="dashbord.css">
+</head>
+<body>
+    <div class="header row">
+        <div class="column1">
+            <div class="textlogo">ZIYADA</div>
+        </div>
+    </div>
+    <div class="header2 row">
+        <div class="column5">
+            <div class="menu">MENU</div>
+        </div>
+        <div class="column6">
+            <!-- <div class="login"> -->
+                <form class="form">
+                    <a class="login3">Register</a>
+                    <a class="login3">Login</a>
+                </form>
+            <!-- </div> -->
+        </div>
+    </div>
+    <div class="conten row">
+        <div class="conten2">
+            <div class="register"><h1>Register</h1></div>
+            <div class="conten3">
+                <div class="conten4">
+                    <form class="formconten">
+                        <div id="p" class="id">
+                            <label for="id" id="name-label">ID </label>
+                            <input type="text" id="id" name="id" placeholder="Masukan ID anda" required />
+                        </div>
+                        
+                        
+                        <div id="p" class="email">
+                            <label for="email" id="email-label">Email </label>
+                            <input type="email" id="email" name="email" placeholder="Masukan email anda" required />
+                        </div>
+                    
+                        <div id="p" class="jenis-kelamin">
+                            <label class="jk">JK </label>
+                            <input type="radio" name="gender" value="male" id="gender" /> <a class="gender">Male</a></label>
+                            <input type="radio" name="gender" value="female" id="gender"/> <a class="gender">Female</a></label>
+                        </div>
+
+                        <div id="p" class="agama">
+                            <label for="dropdown">Agama </label>
+                            <select id="dropdown" name="occupation" required>
+                                <option value="" class="opsi">Pilih beberapa opsi</option>
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="katolik">Katolik</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="budha">Budha</option>
+                                <option value="konghucu">konghucu</option>
+                            </select>
+                        </div>
+        
+                        <div id="p" class="alamat">
+                            <label for="alamat "> Alamat </label>
+                            <textarea id="alamat" name="alamat" placeholder="Isi Alamat" ></textarea>
+                        </div>
+
+                        <div class="buttons">
+                            <button class="btn1">Daftar</button>
+                            <button class="btn2">Batal</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="conten5">
+                    <div class="conten6">
+                        <label> Hobi </label>
+                        <form>
+                            <label><input type="checkbox" name="hobby" value="reading" /> Membaca</label>
+                            <br>
+                            <label><input type="checkbox" name="hobby" value="sports" /> Olahraga</label>
+                            <br>
+                            <label><input type="checkbox" name="hobby" value="music" /> Musik</label>
+                            <br>
+                            <label><input type="checkbox" name="hobby" value="menyanyi" /> Menyanyi</label>
+                            <br>
+                            <label><input type="checkbox" name="hobby" value="otomotif" /> Otomotif</label>
+                            <br>
+                            <label><input type="text" name="hobby" id="input-text-c2" placeholder="Lainnya" /></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>&copy; al-fian</h3>
+    </footer>
+</body>
+</html>
